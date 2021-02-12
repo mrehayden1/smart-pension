@@ -1,0 +1,10 @@
+query allStarships {
+  allStarships {
+    edges {
+      node {
+        name
+        hyperdriveRating
+      }
+    }
+  }
+}

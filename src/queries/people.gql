@@ -1,0 +1,10 @@
+query allPeople {
+  allPeople {
+    edges {
+      node {
+        name
+        height
+      }
+    }
+  }
+}
