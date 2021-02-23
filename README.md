@@ -14,9 +14,11 @@ they have chosen starship it compares hyperdrive_rating.
 - The user should then be able to play again using a button that repeats the same request.
 - The user should also be able to go to a route which displays the
 history of the results.
+
 Bonus points:
 - Add functionality to enable more than two players.
 - Deploy two applications with different colour themes.
+
 This should be completed using the following tech stack:
 - Typescript
 - React
