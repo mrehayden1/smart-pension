@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Smart Pension React Task
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This test makes use of a GraphQL wrapper around the Star Wars API: https://graphql.org/swapi-graphql
+The graphql handler function can be reached here: https://swapi-graphql.netlify.app/.netlify/functions/index
+The docs for the Star Wars API can be found here (The docs are written based on the REST API, however we would like you to use the GraphQL wrapper linked above): https://swapi.dev/documentation
+The aim is to build a Star Wars version of the game Top Trumps which fulfils the following criteria:
+- The user can choose to play with either people or starships.
+- The app makes a GraphQL query to fetch two random resources of that type (people/starships).
+- If the player has chosen people the app compares height else if
+they have chosen starship it compares hyperdrive_rating.
+- The two resources are then rendered on the screen as “cards” with some of their attributes displayed and the resource with the highest value for that attribute declared the winner.
+- The user should then be able to play again using a button that repeats the same request.
+- The user should also be able to go to a route which displays the
+history of the results.
+Bonus points:
+- Add functionality to enable more than two players.
+- Deploy two applications with different colour themes.
+This should be completed using the following tech stack:
+- Typescript
+- React
+- GraphQL with Apollo
+- Styled Components
+- Routing (either client or server side)
 
 ## Available Scripts
 
